@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Change the API_URL to the correct location of the backend API before deploying the app
-const API_URL = 'bloontjer.pythonanywhere.com'; // Adjust for your deployment environment
+const API_URL = 'https://bloontjer.pythonanywhere.com/'; // Adjust for your deployment environment
 
 export class APIService {
   constructor() {
